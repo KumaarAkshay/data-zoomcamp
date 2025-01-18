@@ -28,18 +28,18 @@ services:
     networks:
       - pgnetwork
 
-  # jupyter:
-  #   build:
-  #     context: .
-  #     dockerfile: Dockerfile
-  #   container_name: jupyter_container
-  #   ports:
-  #     - "8888:8888"
-  #   networks:
-  #     - pgnetwork
-  #   volumes:
-  #     - ${LOCAL_FILE_PATH}/notebooks:/app
-  #   command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jupyter_container
+    ports:
+      - "8888:8888"
+    networks:
+      - pgnetwork
+    volumes:
+      - ${LOCAL_FILE_PATH}/notebooks:/app
+    command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root
 
 networks:
   pgnetwork:
