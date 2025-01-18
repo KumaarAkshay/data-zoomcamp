@@ -47,6 +47,12 @@
    `docker run -d --rm image_id`
 5. **Assign a name:**  
    `docker run -d --rm --name my_app -p 3001:3000 image_id`
+6. **Open bash in running container:**  
+   `docker exec -it <container_name> bash`
+7. **List currently running containers:**  
+   `docker ps`
+8. **List all docker containers (running and stopped):**  
+   `docker ps --all`
 
 ---
 
