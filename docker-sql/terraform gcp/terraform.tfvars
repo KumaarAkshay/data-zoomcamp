@@ -1,0 +1,6 @@
+credentials  = "/workspaces/data-engineering/key.json"
+project_id   = "neural-sol-448317-i7"
+region       = "asia-south2"
+machine_type = "e2-medium"
+zone         = "asia-south2-a"
+image        = "projects/ubuntu-os-cloud/global/images/ubuntu-2004-focal-v20250111"
