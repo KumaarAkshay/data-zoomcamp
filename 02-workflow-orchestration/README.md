@@ -59,8 +59,7 @@ docker compose down
 ## Dag File Details
 
 ```plaintext
-f1_green_all/f1_green_all    -> load data from 2019-01 to 2021-07 simple Insert Into Select
-f1_green_monthly_simple/f1_yellow_monthly_simple    -> load from 2021-01 to 2021-07 unique records
+green_data_load     -> Load green taxi data from 2019-01 to 2021-07
+yellow_data_load    -> Load yellow taxi data from 2019-01 to 2021-07
 
-d1 to d4    -> sample dags
 ```
