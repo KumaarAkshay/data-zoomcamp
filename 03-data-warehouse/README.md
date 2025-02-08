@@ -1,10 +1,11 @@
 ## Data Warehouse Module 3 Homework
 
-### Download Parquet file from url
+### Upload parquet to gcs bucket
 
-Created GCP bucket `data-zoom-bucket`
-created service account with role as `Storage Object Admin`
-download the json key
+- Created GCP bucket `data-zoom-bucket`
+- created service account with role as `Storage Object Admin`
+- download the json key
+- run python script
 
 ### Question 1
 
