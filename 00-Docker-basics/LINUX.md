@@ -1,6 +1,7 @@
 ## Important Linux Commands
 
 ## Remove Commands:
+
 - `rm file`: Deletes a file.
 - `rm -d empty_directory`: Deletes an empty directory.
 - `rm -r directory`: Deletes a directory and its contents.`Best Practice`
@@ -10,6 +11,30 @@
 - `rm yellow*`: Deletes an files start with yellow. `Imp`
 
 ---
+## Path Commands:
+
+Linux uses special symbols for path navigation:  
+
+| Symbol | Meaning |
+|---------|---------|
+| `/` | Root directory |
+| `.` | Current directory |
+| `..` | Parent directory (one level up) |
+| `~` | Home directory of the current user (`/home/username`) |
+| `-` | Previous directory |
+
+### **Example Usage:**
+```bash
+cd ../main_folder       # Move one level up
+cd ~/docs   # Go to "docs" inside the home directory
+cd -        # Switch to the previous directory
+cat ./file.txt  # print file.txt in the current directory
+cp ../hello.txt sub_folder/fol.txt # copy file in main folder to file in sub folder
+```
+
+---
+
+## Important Commands:
 
 - **Unzip zip file to csv:**  
   `gunzip -c fhv_tripdata_2020-02.csv.gz > file.csv`

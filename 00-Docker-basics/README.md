@@ -109,6 +109,14 @@
 
 ---
 
+## Access Bash in Container
+
+1. **Bash Command:**
+   - In Running container : `docker exec -it <container_id_or_name> bash`
+   - In stoped container : `docker run -it <image_name> bash`
+
+---
+
 ## Best Practices
 
 1. Use a `.dockerignore` file to exclude unnecessary files.
