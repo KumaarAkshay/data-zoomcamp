@@ -34,6 +34,15 @@ cp ../hello.txt sub_folder/fol.txt # copy file in main folder to file in sub fol
 
 ---
 
+### **Nano Editer Usage:**
+```bash
+nano test.txt   # Open file in editor
+# Ctrl +V  to copy text
+# Ctrl O -> Ctrl X  to save changes in file
+```
+
+---
+
 ## Important Commands:
 
 - **Unzip zip file to csv:**  
